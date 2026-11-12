@@ -1,0 +1,34 @@
+/docs/
+
+# Dependensi
+node_modules/
+
+# Basis data dan unggahan lokal (dibuat otomatis saat aplikasi berjalan)
+data/*.db
+data/*.db.tmp
+uploads/*
+!uploads/.gitkeep
+!data/.gitkeep
+
+# Variabel lingkungan
+.env
+.env.local
+
+# Log dan berkas sementara
+npm-debug.log*
+logs/
+*.log
+coverage/
+.tmp/
+
+# Hasil uji E2E lokal
+e2e-shots/
+test-results/
+__pycache__/
+
+# Berkas sistem dan editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
